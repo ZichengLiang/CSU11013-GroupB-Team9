@@ -51,7 +51,7 @@ class Screen
 
     case 2:
       fill(SCREEN3);
-      rect(startX, startY, screenX, screenY);
+      map.draw();
       break;
 
     case 3:

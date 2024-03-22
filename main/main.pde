@@ -17,6 +17,8 @@ WidgetType2 showCase;
 //Muireann O'Neill 15/03/24 11:12 declaring Charts here;
 PieChart thePieChart;
 
+Map map;
+
 //Daniel 15/03/24 initialized BarCharts here
 TheBarChart theBarChart;
 //BarChart barChart;
@@ -88,6 +90,8 @@ void setup() {
   }
   showCase = new WidgetType2(SCREENX/1.5, SCREENY/6, SCREENX/1.5, SCREENY/3,
     255, body, datapoints);
+    
+  map = new Map(SCREENX/3, 1.5*SCREENY/4, SCREENX/1.5, 2.25*SCREENY/4);
 }
 
 //displaynum = 10
